@@ -18,3 +18,9 @@ console.log(accountPassword);
 console.log(accountCity);
 
 console.table([accountId, accountEmail, accountPassword, accountCity, accountState]);
+
+let firstName = 'tanveer';
+console.log(firstName)
+
+firstName = 24
+console.log(firstName)
