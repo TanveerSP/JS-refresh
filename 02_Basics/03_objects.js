@@ -3,7 +3,6 @@
 
 
 // object literals -> if you make object using object literals method
-
 // how to use symbol in object 
 const mySym = Symbol("key1");
 
