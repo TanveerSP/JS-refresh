@@ -30,4 +30,15 @@ function returnSecondValue(getArray){
 }
 
 // console.log(returnSecondValue(myNewArray))
-console.log(returnSecondValue([200,300,700,400]))
+console.log(returnSecondValue([200,300,700,400]));
+
+
+const userLogIn = {
+    username: 'mark zukarburg',
+    about: 'CEO of Facebook',
+    location: 'Menlo Park, United State',
+}
+function userLoginDetail(ref){
+ return console.log(`Login User name: "${ref.username}" about: "${ref.about}" located: "${ref.location}"`)
+}
+userLoginDetail(userLogIn);
