@@ -32,7 +32,8 @@ function addAnNumbers(numberOne, numberTwo) {
 // ====================================================================== //
 
 function loginUserMsg (username) {
-    if(username === undefined) {
+    // if(username === undefined) {
+    if(!username){
         console.log("Please enter a username");
         return
     }
