@@ -16,12 +16,14 @@
 // 3) Asynchronous Code ke liye: Asynchronous tasks jaha tum chahte 
 // ho ke koi code turant execute ho, IIFE helpful hota hai.
 
-(function chai() {
+(function chai() { // => named IIFE
     console.log(`DB CONNECTED`);
-})()
+})();  // --> semicolon is important
 
 // () --> Exicution
 // () --> funciton call
 
-// chai()
+( (name) => { // => normal IIFE
+ console.log(`DB CONNECTED TWO ${name}`);
+} ) ('tanveer');
 
